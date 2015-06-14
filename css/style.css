@@ -463,26 +463,44 @@ div {
 .top-navigation .links > .active {
     color: #4c5058;
     font-weight: 600;
+    transition: all 0.5s ease;
 }
 
 .top-navigation .links > .active:hover{
     color: #FF00FF;
+    
+}
+.How {
+  transition: all 0.5s ease;
 }
   .How:hover{
     color: #FF00FF;
 }
+.Store {
+  transition: all 0.5s ease;
+}
 .Store:hover{
     color: #FF00FF;
+}
+.Blog {
+  transition: all 0.5s ease;
 }
 .Blog:hover{
     color: #FF00FF;
 }
+.Help {
+  transition: all 0.5s ease;
+}
 .Help:hover{
     color: #FF00FF;
+}
+.Login {
+  transition: all 0.5s ease;
 }
 .Login:hover{
     color: #FF00FF;
 }
+
 
 
 
