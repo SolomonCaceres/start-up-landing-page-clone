@@ -435,6 +435,12 @@ div {
 
 
 
+
+
+
+
+
+
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
@@ -443,11 +449,54 @@ div {
     width: 970px;
     height: 70px;
     margin: 0 auto;
+   
 }
  
-    
 
 
+
+ /* Navigation Bar Links */
+    .links > li{
+    display: inline-block;
+}
+
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 600;
+}
+
+.top-navigation .links > .active:hover{
+    color: #FF00FF;
+}
+  .How:hover{
+    color: #FF00FF;
+}
+.Store:hover{
+    color: #FF00FF;
+}
+.Blog:hover{
+    color: #FF00FF;
+}
+.Help:hover{
+    color: #FF00FF;
+}
+.Login:hover{
+    color: #FF00FF;
+}
+
+
+
+
+
+
+
+/* Adfitional font info */
+{
+font-family: 'Roboto', sans-serif; 
+font-size: 16px; 
+color: #838994; 
+letter-spacing: 0.03em;
+}
 
 
 
