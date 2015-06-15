@@ -452,9 +452,6 @@ div {
 
 
 
-
-
-
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
@@ -523,7 +520,7 @@ div {
 /* Center Image info */
 
   .Introduction {
-    background-image: url('/images/first-backgroundcopy.jpg');
+    background-image: url('../images/first-backgroundcopy.jpg');
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
