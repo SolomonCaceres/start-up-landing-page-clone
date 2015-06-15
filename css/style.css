@@ -441,7 +441,7 @@ th {
 }
 
 body {
-    background-color: LightGray;
+    background-color: 
 }
 div {
     border: 1px solid Chocolate;
@@ -520,14 +520,24 @@ div {
 
 
 
+/* Center Image info */
+
+  .Introduction {
+    background-image: url('/images/first-backgroundcopy.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+}
 
 
-/* Additional font info */
-{
-font-family: 'Roboto', sans-serif; 
-font-size: 16px; 
-color: #838994; 
-letter-spacing: 0.03em;
+
+
+
+  
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
 }
 
 
