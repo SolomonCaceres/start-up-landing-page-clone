@@ -475,6 +475,7 @@ div {
     color: #4c5058;
     font-weight: 600;
     transition: all 0.5s ease;
+     cursor: pointer;
 }
 
 .top-navigation .links > .active:hover{
@@ -483,30 +484,35 @@ div {
 }
 .How {
   transition: all 0.5s ease;
+   cursor: pointer;
 }
   .How:hover{
     color: #FF00FF;
 }
 .Store {
   transition: all 0.5s ease;
+   cursor: pointer;
 }
 .Store:hover{
     color: #FF00FF;
 }
 .Blog {
   transition: all 0.5s ease;
+   cursor: pointer;
 }
 .Blog:hover{
     color: #FF00FF;
 }
 .Help {
   transition: all 0.5s ease;
+   cursor: pointer;
 }
 .Help:hover{
     color: #FF00FF;
 }
 .Login {
   transition: all 0.5s ease;
+   cursor: pointer; 
 }
 .Login:hover{
     color: #FF00FF;
@@ -524,14 +530,55 @@ div {
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45.938rem;
+    height: 46rem;
+      overflow: auto;
+}
+
+
+/* Introduction code */
+
+.Introduction  .content h1{
+
+  margin-top: 4.5em;
+  margin-bottom: 0;
+  text-align:center;
+  color:white;
+  font-size: 45px;
+  font-family: 'Roboto', sans-serif;   
+letter-spacing: 0.03em;
+}
+  
+
+.Introduction  .content h3{
+
+  margin-top: 1em;
+  text-align:center;
+  color:white;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif; 
+letter-spacing: 0.03em;
 }
 
 
 
 
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /* Preserve aspet ratio */
   min-width: 100%;
   min-height: 100%;
