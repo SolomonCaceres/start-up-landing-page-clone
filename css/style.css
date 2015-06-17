@@ -461,6 +461,9 @@ div {
 /* Navigation Bar Itself */
 .top-navigation {
     background-color: #fff;
+    position: fixed;   /* <--keeps the bar fixed in place*/
+    width: 100%;      /* <--keeps the bar fixed in place*/
+    z-index: 9999;  /* <--this makes sure the bar stays on top of other elements as its fixed*/
 }
 .top-navigation > .content {
     width: 970px;
@@ -627,7 +630,7 @@ text-align-center;
     background-color: #fff;
 }
 .bar > .content {
-    width: 970px;
+    width: 900px;
     height: 150px;
     margin: 0 auto;
    
