@@ -620,7 +620,6 @@ text-align-center;
 
 /*Aligning all 3 images*/
 
-
 .Immages li{
     display: inline;
    padding: 75px;
@@ -635,6 +634,56 @@ text-align-center;
     margin: 0 auto;
    
 }
+
+
+
+
+
+/*Aligning 3 text boxes under 3 immages*/
+/*First text box*/
+
+ /* YOU CAN FLOAT THE TEXT THATS WHAT MADE IT WORK!!!!!*/
+
+.Threetext .internet{
+
+  margin-left:110px;
+  font-size: 24px;
+}
+
+
+.Threetext .boost{
+
+  margin-left:120px;
+  font-size: 24px;
+}
+
+.Threetext .pay{
+
+  margin-left:100px;
+  font-size: 24px;
+}
+
+
+.Threetext .container {
+    width: 900px;
+    height: 150px;
+    margin: 0 auto;
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -657,7 +706,7 @@ text-align-center;
   /* Preserve aspcet ratio 
   min-width: 100%;
   min-height: 100%;*/
-}
+
 
 
 
